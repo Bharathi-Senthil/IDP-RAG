@@ -1,0 +1,39 @@
+Based on the provided context and JSON schema, I will parse the content and provide the output in JSON format. Here is the parsed output:
+
+```
+{
+  "bank_name": "ABC Bank, Inc",
+  "data": [
+    {
+      "name": "Goldman Sachs Bank",
+      "term_loan_commitment": "$7,000,000",
+      "total_commitment": "$40,000,000",
+      "percentage": "17.5%",
+      "currency": "USD"
+    },
+    {
+      "name": "Bank of America",
+      "term_loan_commitment": "$3,000,000",
+      "total_commitment": "$40,000,000",
+      "percentage": "7.5%",
+      "currency": "USD"
+    },
+    {
+      "name": "Chase",
+      "term_loan_commitment": "$10,000,000",
+      "total_commitment": "$40,000,000",
+      "percentage": "25%",
+      "currency": "USD"
+    },
+    {
+      "name": "Truist Bank",
+      "term_loan_commitment": "$20,000,000",
+      "total_commitment": "$40,000,000",
+      "percentage": "50%",
+      "currency": "USD"
+    }
+  ]
+}
+```
+
+Note that I've combined the data from all the documents into a single JSON object, with the `bank_name` field populated from the last document, and the `data` array containing all the lender information from the other documents.
